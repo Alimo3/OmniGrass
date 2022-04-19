@@ -1,0 +1,23 @@
+1. customer name
+2. quantity of product to be purchased
+3. delivery date
+4. phone number
+5. create a submit button
+6. 50 cents per kilo total
+
+         #rules
+
+1. No fields fields sould be empty and 
+shoud show red when its empty when submit 
+button is clicked.
+
+2. For quantity (in numbers) section put in kilos and 
+as soon as its filled out automatically 
+calculate kilos to prices.
+
+3. Date should be in calender formatt and 
+phone number should be in phone number formatt.
+
+4. Gui should inherit the navbar and footer of the
+homepage.
+

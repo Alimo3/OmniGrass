@@ -1,15 +1,15 @@
-import * as React from "react";
-import { ThemeProvider, createTheme } from "@mui/material/styles";
-import { AppBar, CssBaseline, Container, Grid } from "@mui/material";
-import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
-import IconButton from "@mui/material/IconButton";
-import Typography from "@mui/material/Typography";
-import MenuIcon from "@mui/icons-material/Menu";
-import SearchIcon from "@mui/icons-material/Search";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import image from "./img/omnigrass.avif";
-import image2 from "./img/otherside.jpg";
+import * as React from 'react';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { AppBar, CssBaseline, Container, Grid } from '@mui/material';
+import Box from '@mui/material/Box';
+import Toolbar from '@mui/material/Toolbar';
+import IconButton from '@mui/material/IconButton';
+import Typography from '@mui/material/Typography';
+import MenuIcon from '@mui/icons-material/Menu';
+import SearchIcon from '@mui/icons-material/Search';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import image from './img/omnigrass.avif';
+import image2 from './img/otherside.jpg';
 
 const theme = createTheme();
 
@@ -19,7 +19,7 @@ const App = () => {
       <CssBaseline />
       <ThemeProvider theme={theme}>
         <Box sx={{ flexGrow: 1 }}>
-          <AppBar position="relative" AppBar sx={{ bgcolor: "#82ad9a" }}>
+          <AppBar position="relative" AppBar sx={{ bgcolor: '#82ad9a' }}>
             <Toolbar>
               <IconButton
                 size="large"
@@ -39,7 +39,7 @@ const App = () => {
                 component="div"
                 sx={{
                   flexGrow: 1,
-                  display: { xs: "none", sm: "block" },
+                  display: { xs: 'none', sm: 'block' },
                 }}
               >
                 OmniGrass
@@ -72,9 +72,6 @@ const App = () => {
               maxWidth="lg"
               style={{
                 height: 500,
-                backgroundImage: `url(${image})`,
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
               }}
             >
               <Grid
@@ -100,7 +97,7 @@ const App = () => {
           <div>
             <Container
               style={{
-                backgroundColor: "#e4ede7",
+                backgroundColor: '#e4ede7',
               }}
             >
               <Grid
@@ -111,10 +108,6 @@ const App = () => {
                 justifyContent="center"
                 style={{
                   height: 500,
-                  backgroundImage: `url(${image2})`,
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "400px",
-                  backgroundPosition: "right",
                 }}
               >
                 <Typography
@@ -147,8 +140,8 @@ const App = () => {
               style={{
                 height: 500,
 
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover',
               }}
             >
               <Grid

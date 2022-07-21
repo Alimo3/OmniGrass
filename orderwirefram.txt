@@ -1,9 +1,9 @@
 1. customer name
-2. quantity of product to be purchased
+2. quantity of product to be purchased(50cents/kg)
 3. delivery date
 4. phone number
 5. create a submit button
-6. 50 cents per kilo total
+
 
          #rules
 
